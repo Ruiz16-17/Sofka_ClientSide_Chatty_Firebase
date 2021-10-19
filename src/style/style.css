@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  color:#000;
+}
+
+.bg-dark {
+  padding: 14px;
+  background: #9a10b0;
+  background: linear-gradient(to right, #5b1686, #6945ba);
+}
+
+.chat-area, .home {
+  margin-top: 60px;
+}
+
+.chat-area {
+  padding: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.chat-area .chat-bubble {
+  background-color: #f7797d;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.chat-bubble .chat-time {
+  font-size: 12px;
+  color: #757575;
+  text-align: right;
+}
+
+.chat-area .chat-bubble.current-user {
+  margin-left: auto;
+  background-color: #d9a7c7;
+}
+
+.jumbotron {
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.form-control {
+  width: 60%;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.btn-submit {
+  background-color: #2e7d32;
+  color: white;
+}
+
+@media (max-width: 692px) {
+	.titleWelcome h2 {
+		line-height: 1.45;
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 492px) {
+	.titleWelcome h2 {
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 406px) {
+	.titleWelcome h2 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 360px) {
+	.titleWelcome h2 {
+		font-size: 50px;
+	}
+}
+
+.btn-signin{
+  background: #5c00cd;
+  margin-right: 12px;
+}
+
+.form-signin input{
+  margin-bottom: 12px;
+}
+
+.btn-account{
+    display: inline-block;
+    margin-right: 12px;
+    background: #420dd4;
+    border: none;
+}
+
+.btn-header{
+  background: #5b1686;
+  margin-left: 12px;
+}
+
+.form-register input{
+  margin-bottom: 18px;
+}
