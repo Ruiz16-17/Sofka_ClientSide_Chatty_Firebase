@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { auth } from "../services/firebase";
-import { db } from "../services/firebase";
+import { auth, db } from "../services/firebase";
 
 export default class Chat extends Component {
   constructor(props){
